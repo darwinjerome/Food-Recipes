@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.App-header {
+  background-color: #222;
+  /* height: 150px; */
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #444;
+}
+
+ul, li{
+  list-style: none;
+}
+
+.main-content{
+  background-color: darkgrey;
+  border: 1px solid black;
+}
+
+.recipe-image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.recipes{
+  margin: 0 auto;
+  
+  width:78vw;
+  border: 1px solid blue;
+  align-items: center;
+  align-content: center;
+}
+
+.recipe{
+  background-color: #fff;
+  color: #222;
+  border-radius: 5px;
+  width: 220px;
+  
+  padding: 20px;
+  margin: 5px;
+  
+  display: block;
+  
+  box-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 4px;
+  
+  justify-content: center;
+  align-items: center;  
+  
+}
+
+.recipe p{
+  font-weight: 300;
+  font-size: .9em;
+  text-align: justify;
+}
+
+.recipe:hover{
+  background-color: #CFD8DC;
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  /* STYLES GO HERE */
+
+  /* .recipes{
+    
+  } */
+  .recipe{
+    width: 90vw;
+  }
+
+}
+
+@media (min-width: 1200px){
+  /* .main-content{
+    width: 1170px;
+    align-self: center;
+  } */
+}
+

@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.main-content{
+  align-content: center;
+}
+
+.recipe-image {
+  max-width: 100px;
+}
+
+
+.recipe-description{
+
+}
+
+.recipe-details{
+
+}
+
+.recipes{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+  width: 400px;
+}
+
+.recipe{
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 100%;
+}
+
+.recipe:hover{
+  background-color: #CFD8DC;
+}
