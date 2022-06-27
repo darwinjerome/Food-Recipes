@@ -8,4 +8,6 @@ Current example is a food recipe website.
 - ES2016
 - integrated masonry and infinite scroll components
 
-# Darwin Tardio
+## Author
+
+[Darwin Jerome](darwin.tardio.info)
